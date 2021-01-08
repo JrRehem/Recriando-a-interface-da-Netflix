@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #141414;
+    color: #FFFFFF;
+}
+
+header{
+    background: #141414;
+    position: fixed;
+    z-index: 999;
+    padding: 0 10px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    /* width: 940px; */
+}
+
+.img {
+    width: 10%;
+}
+
+.imagens .icon{
+    position: absolute;
+    right: 0;
+    margin: 15px 20px;
+}
+
+.icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.menu-principal {
+    position: absolute;
+    left: 10%;
+}
+.itens{
+    margin: 0 5px;
+
+}
+
+.menu-principal .menu-itens{
+    display: inline;
+}
+
+.menu-itens .itens{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.itens:hover{
+    color: #CCCCCC;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/*Botão pesquisar*/
+
+.search{
+    display: flex;
+}
+
+i{
+    margin-right: 100px;
+    cursor: pointer;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#pesquisa {
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 3px;
+    opacity: 0;
+}
+
+#pesquisa i{
+    margin: 0 5px;  
+    justify-content: center;
+}
+
+.search:hover #pesquisa{
+    opacity: 1;
+}
+
+/* @media screen and (max-width: 768px){
+    header .container{
+        display: inline-flex;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .icon {
+        margin: 0 50%;
+        top: 20%;
+    }
+    #pesquisa{
+       margin-right: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 60%;
+    }
+} */

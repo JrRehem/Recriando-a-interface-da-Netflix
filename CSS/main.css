@@ -1,0 +1,97 @@
+.pagina-inicial {
+    font-size: 17px;
+    background: linear-gradient(to top, #141414 5%, transparent 95%), url(/img/the_witch.jpg);
+    height: 430px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.pagina-inicial .titulo-principal {
+    width: 42%;
+}
+
+.titulo {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 5px 15px;
+}
+
+.relevante, 
+.ano, 
+.temporada {
+    display: inline-block;
+    margin: 5px 0 5px 15px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.relevante {
+    color: #46D369;
+}
+
+.descricao{
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.botao-assistir,
+.botao-informacoes {
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 1s ease all;
+    border-radius: 5px;
+}
+
+.botao-assistir {
+    background-color: white;
+    margin: 10px 20px;
+}
+
+.botao-assistir:hover {
+    background: #CCCCCC;
+}
+
+.assistir {
+    color: black;
+    text-decoration: none;
+}
+
+.botao-informacoes {
+    background-color: rgba(109, 109, 110, 0.7);
+}
+
+.informacoes {
+    color: white;
+    text-decoration: none;
+}
+
+.botao-informacoes:hover {
+    opacity: 0.5;
+}
+
+.botao-informacoes i, .botao-assistir i {
+    margin: 0 5px;
+    display: contents;
+}
+
+.botao-informacoes i{
+    color: #FFFFFF;
+}
+
+/* Mais Informações*/
+
+.informacoes-elencos {
+    font-size: 16px;
+    margin: 15px 15px 5%;
+    transition: 1.2s;
+}
+
+em {
+    color:#CCCCCC;
+    margin: 3px;
+}

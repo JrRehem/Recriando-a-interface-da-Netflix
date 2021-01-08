@@ -1,0 +1,15 @@
+
+footer{
+    color: grey;
+    margin: 50px;
+    text-align: center;
+}
+
+.direitos a{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.direitos {
+    padding: 5px;
+}

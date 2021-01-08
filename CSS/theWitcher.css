@@ -1,0 +1,41 @@
+body {
+    background:black;
+}
+
+header a {
+    z-index: 99;
+}
+
+.container  {
+    position: absolute;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 15px;
+    cursor: pointer;
+    z-index: 99;
+   
+}
+
+.botao {
+    background: transparent;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0;
+
+}
+i{
+    position: relative;
+    font-size: 35px;
+    color: white;
+}
+
+.container:hover .botao {
+    opacity: 1;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+}
+

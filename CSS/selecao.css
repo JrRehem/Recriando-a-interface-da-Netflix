@@ -1,0 +1,22 @@
+.original{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.carrosel {
+    margin: 0;
+}
+
+.item {
+    transition: 1s all;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.emAlta .box-filme{
+    width: 100%;
+    height: 400px;
+}
