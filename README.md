@@ -1,4 +1,4 @@
-<h1>Recriando a interface do Netflix</h1>
+<h1>Recriando a interface da Netflix</h1>
 
 <h4>Vídeo Netflix Clone</h4>
 <ul>
