@@ -1,12 +1,7 @@
 <h1>Recriando a interface do Netflix</h1>
 
+-https://youtu.be/HSqa4mUnA8Y
 
-<h3><em>Vídeo da Interface</em></h3>
-  <ul>
-    <li>
-      <h4>https://youtu.be/HSqa4mUnA8Y</h4>
-    </li>
- </ul>
  
 ![Netflix Clone](https://i.makeagif.com/media/1-09-2021/YCw5ab.gif)
  
